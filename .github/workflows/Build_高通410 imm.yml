@@ -46,7 +46,7 @@ on:
       extra_packages:
         description: ' ↓ 输入额外包名（逗号或空格分隔，留空则不添加任何额外包）↓ '
         required: false
-        default: ''
+        default: 'luci-app-adbyby-plus,android-tools-adbd,luci-app-ttyd,dnsmasq-full,busybox,kmod-nft-socket,kmod-nft-tproxy,luci-app-passwall,luci-i18n-passwall-zh-cn'
         type: string
 
 env:
